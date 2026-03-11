@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+:root {
+  --pine: #214d3a;
+  --deep-pine: #173629;
+  --marsh: #87b37a;
+  --reed: #c7d9a5;
+  --sand: #f7f3e8;
+  --water: #2f6f8f;
+  --slate: #263238;
+  --fog: #eef3ef;
+  --accent: #d89b3c;
+}
+
+body {
+  font-family: "Cinzel", "Times New Roman", serif;
+}
+
+.remark-slide-content {
+  background: var(--sand);
+  color: var(--slate);
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-size: 24px;
+  padding: 1.15em 1.45em 1.15em 1.45em;
+  line-height: 1.45;
+}
+
+.remark-slide-content h1 {
+  color: var(--pine);
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 800;
+  font-size: 1.8em;
+  line-height: 1.08;
+  margin-bottom: 0.32em;
+}
+
+.remark-slide-content h2 {
+  color: var(--water);
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 1.12;
+  margin-top: 0.24em;
+  margin-bottom: 0.38em;
+}
+
+.remark-slide-content h3 {
+  color: var(--deep-pine);
+  font-family: "Cinzel", "Times New Roman", serif;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: 0.28em;
+  margin-bottom: 0.32em;
+}
+
+.remark-slide-content p,
+.remark-slide-content li,
+.remark-slide-content td,
+.remark-slide-content th,
+.remark-slide-content blockquote,
+.remark-slide-content .panel,
+.remark-slide-content .tri-box,
+.remark-slide-content .flow-box,
+.remark-slide-content .title-tagline,
+.remark-slide-content .big-question,
+.remark-slide-content .footnote {
+  font-family: "Cinzel", "Times New Roman", serif;
+}
+
+.remark-slide-content a {
+  color: var(--water);
+  text-decoration: none;
+}
+
+.remark-slide-content strong {
+  color: var(--deep-pine);
+}
+
+.inverse {
+  background: linear-gradient(135deg, var(--deep-pine) 0%, var(--pine) 100%);
+  color: #ffffff;
+}
+
+.inverse h1,
+.inverse h2,
+.inverse h3,
+.inverse strong {
+  color: #ffffff;
+}
+
+.title-slide {
+  background:
+    linear-gradient(rgba(23,54,41,0.76), rgba(23,54,41,0.76)),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Cape_Fear_River..._%282675106038%29.jpg/1280px-Cape_Fear_River..._%282675106038%29.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+
+.title-slide h1,
+.title-slide h2,
+.title-slide h3 {
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.title-tagline {
+  margin-top: 1.25em;
+  display: inline-block;
+  padding: 0.6em 0.95em;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.15);
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+.section {
+  background:
+    linear-gradient(rgba(23,54,41,0.86), rgba(47,111,143,0.82)),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Longleaf_pine_forest_2.jpg/1280px-Longleaf_pine_forest_2.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section strong {
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.28);
+}
+
+.big-question {
+  font-size: 1.35em;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--deep-pine);
+  margin-top: 0.5em;
+}
+
+.inverse .big-question,
+.section .big-question {
+  color: #ffffff;
+}
+
+.pull-left {
+  float: left;
+  width: 48%;
+}
+
+.pull-right {
+  float: right;
+  width: 48%;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.16);
+}
+
+blockquote {
+  border-left: 6px solid var(--accent);
+  padding: 0.55em 0.8em 0.55em 0.95em;
+  color: var(--slate);
+  background: rgba(255,255,255,0.35);
+  border-radius: 8px;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+ul, ol {
+  margin-top: 0.45em;
+  margin-bottom: 0.45em;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 0.55em;
+}
+
+li + li {
+  margin-top: 0.3em;
+}
+
+.panelset {
+  margin-top: 0.45em;
+}
+
+.panelset .panel-tabs {
+  margin-bottom: 0.4em;
+}
+
+.panelset .panel-tab {
+  background: #dfe9df;
+  color: var(--deep-pine);
+  border-radius: 10px 10px 0 0;
+  padding: 0.38em 0.82em;
+  margin-right: 0.22em;
+  font-weight: 700;
+}
+
+.panelset .panel-tab-active {
+  background: var(--pine);
+  color: white;
+}
+
+.panelset .panel {
+  border: 1px solid #d7e0d1;
+  border-radius: 0 12px 12px 12px;
+  background: rgba(255,255,255,0.55);
+  padding: 0.8em 0.95em;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.flow-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1.15em 0 1.15em 0;
+  gap: 8px;
+}
+
+.flow-box {
+  background: linear-gradient(135deg, var(--pine), var(--water));
+  color: white;
+  padding: 0.8em 1.05em;
+  border-radius: 12px;
+  font-weight: 800;
+  box-shadow: 0 7px 18px rgba(0,0,0,0.14);
+}
+
+.flow-arrow {
+  font-size: 1.4em;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.three-box {
+  display: flex;
+  gap: 12px;
+  margin: 1.1em 0;
+}
+
+.tri-box {
+  flex: 1;
+  background: linear-gradient(180deg, #ffffff, #eef3ef);
+  border: 1px solid #d7e0d1;
+  border-radius: 14px;
+  padding: 0.95em 0.85em;
+  box-shadow: 0 7px 18px rgba(0,0,0,0.08);
+  min-height: 105px;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 0.7em;
+  left: 1.5em;
+  right: 1.5em;
+  font-size: 0.52em;
+  line-height: 1.25;
+  color: #5f6b65;
+}
+
+.remark-slide-number {
+  font-size: 11px;
+  color: #6f7e75;
+  opacity: 0.95;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.small {
+  font-size: 0.82em;
+}
+
+.tiny {
+  font-size: 0.65em;
+}
