@@ -364,44 +364,6 @@ Doremus, H. 2004. Scientific and political integrity in environmental policy.
 
 ---
 
-# How research enters a decision process
-.pull-left[
-```{r, echo=FALSE, results='asis'}
-cat('
-<div class="flow-wrap">
-  <div class="flow-box">Monitoring</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-box">Inference</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-box">Risk framing</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-box">Agency decision</div>
-  <div class="flow-arrow">→</div>
-  <div class="flow-box">Management action</div>
-</div>
-')
-```
-]
-
-.pull-right[
-Typical scientific inputs:
-
-- population trend estimates
-- habitat distribution maps
-- occupancy or abundance models
-- extinction risk or viability analysis
-- scenario forecasts
-
-Typical non-scientific filters:
-
-- legal standards
-- implementation cost
-- stakeholder conflict
-- court risk
-- institutional capacity
-]
----
-
 name: case-menu
 class: middle, center
 
