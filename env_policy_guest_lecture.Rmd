@@ -56,11 +56,24 @@ Why do some wildlife problems become policy problems — and others do not?
 
 By the end of this lecture, students should be able to:
 
+
 - explain the basic architecture of U.S. wildlife policy
+
+--
+
 - describe the main mechanisms of the Endangered Species Act
+--
+
 - explain what "best available science" means in practice
+
+--
+
 - evaluate how research enters real policy decisions
+
+--
+
 - discuss how policy and wildlife management shape eastern North Carolina and the southeastern coastal plain
+
 
 ---
 
@@ -406,6 +419,7 @@ Based on time and student interest we can jump directly to any case study.
 
 [Amphibian declines / ARMI](#armi)
 
+[Next section](#science-menu)
 ---
 name: sage-grouse
 
@@ -731,6 +745,7 @@ Amphibian Research and Monitoring Initiative
 [Back to case study menu](#case-menu)
 
 ---
+name: science-menu
 
 class: section, middle, center
 
