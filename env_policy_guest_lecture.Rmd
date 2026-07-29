@@ -62,6 +62,7 @@ By the end of this lecture, students should be able to:
 --
 
 - describe the main mechanisms of the Endangered Species Act
+
 --
 
 - explain what "best available science" means in practice
@@ -101,15 +102,25 @@ Agencies respond to statutes, budgets, courts, stakeholders, and risk.
 ### Major drivers of biodiversity decline
 
 - habitat destruction and fragmentation
+
 --
+
 - invasive species
+
 --
+
 - altered disturbance regimes
+
 --
+
 - pollution
+
 --
+
 - overexploitation
+
 --
+
 - climate change
 ]
 
@@ -172,13 +183,19 @@ class: section, middle, center
 
 - **National Environmental Policy Act (NEPA)**  
   environmental review and disclosure
+
 --
+
 - **Endangered Species Act (ESA)**  
   species and ecosystem protection
+
 --
+
 - **Clean Water Act (CWA)**  
   water quality and aquatic habitat
+
 --
+
 - **Migratory Bird Treaty Act (MBTA)**  
   protections for migratory birds
 ]
@@ -187,15 +204,25 @@ class: section, middle, center
 ### Key institutions
 
 - U.S. Fish and Wildlife Service
+
 --
+
 - NOAA Fisheries
+
 --
+
 - U.S. Geological Survey
+
 --
+
 - EPA
+
 --
+
 - state wildlife agencies
+
 --
+
 - local governments and special districts
 ]
 
