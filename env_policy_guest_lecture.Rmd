@@ -1,7 +1,6 @@
 ---
-title: "Wildlife, Policy, and the Endangered Species Act"
-subtitle: "Science, Management, and Environmental Policy"
-author: "Guest Lecture"
+title: "Wildlife Policy and the Endangered Species Act"
+author: "Dr. Philip Gould"
 output:
   xaringan::moon_reader:
     css: ["default", "default-fonts", "pine-marsh-pro.css"]
@@ -28,9 +27,8 @@ xaringanExtra::use_share_again()
 
 class: title-slide, middle, center
 
-# Wildlife, Policy, and the ESA
+# Wildlife Policy and the ESA
 ## Science, Management, and Environmental Policy
-### Guest lecture for Environmental Policy
 
 <div class="title-tagline">
 How do laws, agencies, scientists, and landscapes shape wildlife outcomes?
