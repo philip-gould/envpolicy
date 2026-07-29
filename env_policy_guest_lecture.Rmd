@@ -172,13 +172,13 @@ class: section, middle, center
 
 - **National Environmental Policy Act (NEPA)**  
   environmental review and disclosure
-
+--
 - **Endangered Species Act (ESA)**  
   species and ecosystem protection
-
+--
 - **Clean Water Act (CWA)**  
   water quality and aquatic habitat
-
+--
 - **Migratory Bird Treaty Act (MBTA)**  
   protections for migratory birds
 ]
@@ -187,10 +187,15 @@ class: section, middle, center
 ### Key institutions
 
 - U.S. Fish and Wildlife Service
+--
 - NOAA Fisheries
+--
 - U.S. Geological Survey
+--
 - EPA
+--
 - state wildlife agencies
+--
 - local governments and special districts
 ]
 
