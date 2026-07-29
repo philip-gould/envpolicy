@@ -175,17 +175,31 @@ blockquote {
 }
 
 ul, ol {
-  margin-top: 0.45em;
-  margin-bottom: 0.45em;
-  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
+  line-height: 1.65;
+  padding-left: 1.2em;
 }
 
 li {
-  margin-bottom: 0.55em;
+  margin-bottom: 0.75em;
+  padding-left: 0.1em;
 }
 
 li + li {
   margin-top: 0.3em;
+}
+
+.remark-slide-content .fragment {
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.remark-slide-content .fragment.visible,
+.remark-slide-content .fragment.current-fragment {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .panelset {
@@ -214,8 +228,12 @@ li + li {
   border: 1px solid #d7e0d1;
   border-radius: 0 12px 12px 12px;
   background: rgba(255,255,255,0.55);
-  padding: 0.8em 0.95em;
+  padding: 0.9em 1em;
   box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.panelset .panel .fragment {
+  display: block;
 }
 
 .flow-wrap {
